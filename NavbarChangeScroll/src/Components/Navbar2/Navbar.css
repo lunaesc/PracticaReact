@@ -1,0 +1,45 @@
+@import '../../App.css';
+
+.navbar{  
+    padding:  20px;
+    border-bottom: 2px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar-brand{
+    font-size: 3em;
+    color: #fff !important;
+    padding: 0 60px;
+}
+
+.navbar-brand span{
+    font-size: 1.4em;
+    color: red;
+}
+.navbar.scroll{
+    background: purple;
+    padding: 10px;
+}
+.navbar-nav{
+    padding: 0 60px;
+    margin-top: 20px;
+    display: flex;
+    list-style: none;
+}
+
+.nav-link{
+    margin-left: 18px;
+    color: #fff;
+    font-size: 30px;
+    
+}
+
+.nav-link:hover{
+    color: var(--main);
+}
+

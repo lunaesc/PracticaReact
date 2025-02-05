@@ -1,0 +1,32 @@
+:root {
+    --main: #f01029;
+    --black: #000;
+    --white: #fff;
+--font-family:'popping' ;
+}
+
+*{
+    transition: .3s;
+font-family: var(--font-family);
+}
+html::-webkit-scrollbar{
+    width: 10px;
+}
+html::-webkit-scrollbar-thumb{
+    background: var(--main);
+}
+    
+html::-webkit-scrollbar{
+    background: var(--black);
+}
+.btn{
+    width: 200px;
+    background: var(--main);
+    color: var(--white) !important;
+}
+
+
+body{
+    background: #000;
+    color: #fff;
+}

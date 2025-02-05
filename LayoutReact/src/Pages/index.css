@@ -1,0 +1,15 @@
+
+.main{
+    background-color: red;
+}
+.container-layout{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-articulo{
+    background-color: blueviolet;
+    width: 60%;
+}

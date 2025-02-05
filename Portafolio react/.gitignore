@@ -1,0 +1,27 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*como hago para instalar la ultieme version copio y pego lo que me acabas de dar que es nvm install 20.17.0
+nvm use 20.17.0 pero segui el  link que me diste de la pagina oficial y me da esta version node-v22.13.0-x64  pero yo tengo la siguiente version node -v
+v18.20.4
