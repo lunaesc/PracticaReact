@@ -1,9 +1,9 @@
-import React from 'react'
+
 
 function Consulting() {
   return (
     <div>
-        <h1 className='consulting'>Consulting</h1>
+        <h1 className='consulting'>Consuslting</h1>
     </div>
   )
 }
